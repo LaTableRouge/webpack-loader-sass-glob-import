@@ -1,0 +1,42 @@
+{
+  "name": "@mlnop/webpack-loader-sass-glob-import",
+  "version": "1.0.0",
+  "description": "A webpack loader that enables glob imports in SCSS files",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "vitest",
+    "build": "tsup src/index.ts --format esm --dts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "scss",
+    "sass",
+    "glob",
+    "import"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "dependencies": {
+    "glob": "^10.0.0",
+    "minimatch": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.0",
+    "webpack": "^5.0.0",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1",
+    "vitest": "^3.0.8"
+  }
+}
