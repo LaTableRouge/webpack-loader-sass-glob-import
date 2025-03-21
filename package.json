@@ -1,21 +1,17 @@
 {
   "name": "@mlnop/webpack-loader-sass-glob-import",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A webpack loader that enables glob imports in SCSS files",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
-  "files": [
-    "src"
-  ],
   "scripts": {
     "dev": "vitest",
     "build": "tsup src/index.ts --format esm --dts",
     "test": "vitest run"
   },
   "author": {
-    "name": "Malven Co.",
-    "email": "chris@malven.co",
-    "url": "https://malven.co"
+    "name": "LaTableRouge",
+    "url": "https://github.com/LaTableRouge"
   },
   "keywords": [
     "webpack",
