@@ -1,6 +1,6 @@
 {
   "name": "@mlnop/webpack-loader-sass-glob-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader that enables glob imports in SCSS files",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
